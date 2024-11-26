@@ -28,6 +28,9 @@ The project follows a structured architecture involving multiple stages:
      - Vector assembly for ML modeling.
    - The trained model is saved back to **GCS**.
 
+6. **Output**:
+   - The model is evaluated for accuracy and provides predictions for accident severity.
+
 ## Prerequisites
 
 1. **Google Cloud Platform** services:
@@ -41,5 +44,3 @@ The project follows a structured architecture involving multiple stages:
 ## Code
 
 - Dataset : accident_stats_2018.zip
-6. **Output**:
-   - The model is evaluated for accuracy and provides predictions for accident severity.
