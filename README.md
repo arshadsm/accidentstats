@@ -28,5 +28,18 @@ The project follows a structured architecture involving multiple stages:
      - Vector assembly for ML modeling.
    - The trained model is saved back to **GCS**.
 
+## Prerequisites
+
+1. **Google Cloud Platform** services:
+   - Google Cloud Storage
+   - Google Cloud Dataproc
+   - Google BigQuery
+2. Python environment with the following installed:
+   - PySpark
+   - Google Cloud SDK
+  
+## Code
+
+- Dataset : accident_stats_2018.zip
 6. **Output**:
    - The model is evaluated for accuracy and provides predictions for accident severity.
